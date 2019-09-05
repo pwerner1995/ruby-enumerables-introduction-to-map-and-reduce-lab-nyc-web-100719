@@ -8,3 +8,8 @@ def map_to_negativize(source_array)
   end
   neg_array
 end
+
+def map_to_no_change(source_array)
+  new_array = source_array
+  return new_array
+end
