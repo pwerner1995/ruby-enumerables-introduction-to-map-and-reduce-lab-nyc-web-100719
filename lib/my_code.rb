@@ -49,7 +49,7 @@ reduce_to_all_true(source_array)
   value = true  
   while source_array.length > i do 
     if source_array[i] == false  
-      value  = source_array[i]
+      value  = false 
     end 
     i +=1 
   end
