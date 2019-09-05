@@ -52,7 +52,8 @@ def reduce_to_all_true(source_array)
       value = false 
     end 
     i += 1 
-  end 
+  end
+  value 
 end 
 
 
