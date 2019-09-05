@@ -46,9 +46,9 @@ end
 
 reduce_to_all_true(source_array)
   i = 0 
-  value =TRUE 
+  value = true  
   while source_array.length > i do 
-    if source_array[i] == FALSE 
+    if source_array[i] == false  
       value  = source_array[i]
     end 
     i +=1 
