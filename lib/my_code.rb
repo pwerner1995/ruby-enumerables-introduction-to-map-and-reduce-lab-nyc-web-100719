@@ -13,3 +13,13 @@ def map_to_no_change(source_array)
   new_array = source_array
   return new_array
 end
+
+def map_to_double(source_array)
+  doub_array=[]
+  i = 0 
+  while source_array.length > i do 
+    doub_array[i] = source_array[i] * 2 
+    i+=1 
+  end
+  doub_array
+end
