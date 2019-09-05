@@ -36,7 +36,6 @@ end
 
 def reduce_to_total(source_array, starting_point)
   tot_array = []
-  i = 0 
   if !starting_point do
     starting_point = 0 
     tot_array[starting_point] = source_array[starting_point]
